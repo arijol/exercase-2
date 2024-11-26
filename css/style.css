@@ -1,0 +1,58 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* styles.css */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  max-width: 1028.33px; /* Mos ravishda kenglik */
+  margin: 0 auto;
+  position: relative;
+}
+
+.small-subtitle {
+  font-size: 16px;
+  color: #a6a6a6;
+  margin-bottom: 5px;
+}
+
+main .title {
+  max-width: 1028px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: start;
+  font-size: 61px;
+  line-height: 73.2px;
+  color: black;
+  font-weight: 400;
+}
+
+.illustration {
+  margin-top: 30px;
+}
+
+.illustration img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
